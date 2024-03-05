@@ -1,11 +1,11 @@
 package model;
 
 public class Usuario {
-private String Nome, CPF, Celular, Email, Senha;
+public String Nome, CPF, Celular, Email, Senha;
 
 private boolean EstaLogado= false;
 
- Usuario (String Nome, String CPF, String Celular, String Email, String Senha) {
+ public Usuario (String Nome, String CPF, String Celular, String Email, String Senha) {
 	this.Nome = Nome;
 	this.CPF = CPF;
 	this.Celular = Celular;
